@@ -14,3 +14,26 @@ li { margin-bottom: 5px; }
 .nav-links a { text-decoration: none; color: #4b5563; font-weight: 500; }
 .nav-links a:hover { color: #2563eb; }
 .hero { text-align: center; padding: 20px 0; }
+
+/* --- TAMBAHAN KODE EMAIL SESUAI FEEDBACK REVIEW --- */
+.email-container {
+  margin-top: 20px;
+  padding: 15px;
+  background-color: #e0f2fe; 
+  border: 1px solid #bae6fd;
+  border-radius: 8px;
+  text-align: center;
+}
+.email-link {
+  display: inline-block;
+  color: white;
+  background-color: #2563eb;
+  padding: 10px 24px;
+  text-decoration: none;
+  font-weight: 600;
+  border-radius: 6px;
+  transition: background-color 0.3s ease;
+}
+.email-link:hover {
+  background-color: #1d4ed8;
+}
